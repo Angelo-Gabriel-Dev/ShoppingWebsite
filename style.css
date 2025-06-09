@@ -86,7 +86,8 @@ nav{
     margin-bottom: 26px;
 }
 #promo {
-    background-color: rgb(151, 236, 223);
+    background: linear-gradient(to right, #4dcdff, #79a3fe);
+    color: white;
 }
 main {
     margin: 0;
@@ -136,7 +137,11 @@ footer {
     padding-left: 15px;
     border-radius: 10px;
     transition: box-shadow 0.1s ease-in-out;
-    cursor: pointer;;
+    cursor: pointer;
+    margin: 25px;
+}
+.product-info {
+    text-align: center;
 }
 .product-box:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
